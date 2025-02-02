@@ -97,4 +97,16 @@
     display: flex;
     flex-direction: column;
   }
+  .dawat {
+    width: 100px;
+  }
+  .logo-dawat {
+    width: 100px;
+  }
+  .india-gate {
+    width: 70px;
+  }
+  .india {
+    width: 80px;
+  }
 }

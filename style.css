@@ -29,7 +29,10 @@ h2 {
 
   align-items: center;
 }
-
+.write {
+  margin-left: 10px;
+  margin-right: 10px;
+}
 .logo {
   flex: 1;
   display: flex;
@@ -296,7 +299,11 @@ h3 {
   display: flex;
   gap: 20px;
   justify-content: center;
+  margin-bottom: 140px;
 }
+/* #offers {
+  margin-bottom: 140px;
+} */
 .offer-box {
   width: 45%;
   padding: 20px;
