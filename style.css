@@ -37,7 +37,7 @@ h2 {
 }
 
 .logo img {
-  height: 40px;
+  height: 50px;
 }
 nav {
   flex: 1;
@@ -118,7 +118,7 @@ p {
   background-color: #efebe3;
 }
 i {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-right: 5px;
 }
 .services {
@@ -247,6 +247,10 @@ h3 {
   justify-content: center;
   align-items: center;
   margin-top: 14px;
+  background-color: #ccc;
+  border-radius: 10px;
+  margin-right: 10px;
+  background-position: center;
 }
 
 .product-card .rating {
@@ -270,14 +274,16 @@ h3 {
 #product {
   margin-top: 148px;
   background-color: #efebe3;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .buy {
   border: 2px lightgreen;
   cursor: pointer;
 }
 .buy:hover {
-  transition: 0.9s linear;
-  background-color: #008000;
+  transition: 0.5s linear;
+  background-color: #dceddc;
 }
 .heading-offers {
   color: green;
@@ -382,10 +388,10 @@ h3 {
 }
 
 .newsletter-content input {
-  flex: 1;
+  width: 90%;
   margin-right: 10px;
-  padding: 10px;
-  border: 1px solid #ccc;
+  padding: 14px;
+  border: 1px solid #c4c4c4;
   border-radius: 5px;
 }
 
