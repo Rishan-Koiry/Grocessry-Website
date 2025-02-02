@@ -11,6 +11,9 @@ html {
 body {
   font-family: "Sora";
 }
+a:hover {
+  color: green;
+}
 
 h2 {
   color: green;
@@ -105,11 +108,11 @@ nav ul li a {
   font-size: 2.5rem;
   margin-bottom: 10px;
 }
-span {
+.span {
   color: green;
 }
 p {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 .body {
   background-color: #efebe3;
@@ -150,7 +153,7 @@ i {
 }
 h3 {
   margin-top: 20px;
-  font-size: 1.4rem;
+  font-size: 1.9rem;
   text-align: center;
 }
 .service-img {
@@ -163,10 +166,11 @@ h3 {
   text-align: center;
 }
 .heading {
-  padding-top: 100px;
+  padding-top: 10px;
+  padding-left: 10px;
   margin-bottom: 30px;
   color: #228b22;
-  font-size: 28px;
+  font-size: 40px;
   font-weight: bold;
   margin-bottom: 20px;
 }
@@ -174,7 +178,8 @@ h3 {
   display: flex;
   gap: 20px;
   align-items: center;
-  padding: 100px;
+
+  padding: 20px;
 }
 .promo-card {
   background: linear-gradient(145deg, #b1f5ac, #6dd66d);
@@ -237,6 +242,13 @@ h3 {
   height: 50px;
   margin-bottom: 10px;
 }
+.product-img-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 14px;
+}
+
 .product-card .rating {
   color: #ffbf00;
   font-weight: bold;
@@ -289,10 +301,8 @@ h3 {
   justify-content: space-between;
   position: relative;
 }
-.offer-box img {
-  max-width: 100px;
-}
-.offer-box.green {
+
+.offer-box.greens {
   background-color: #044d00;
 }
 .offer-box.blue {
@@ -301,7 +311,18 @@ h3 {
 .offer-text {
   text-align: left;
 }
-
+.logo-dawat {
+  width: 180px;
+}
+.dawat {
+  width: 180px;
+}
+.india {
+  width: 130px;
+}
+.india-gate {
+  width: 100px;
+}
 .cta {
   background: rgba(255, 255, 255, 0.3);
   padding: 5px 10px;
@@ -327,9 +348,9 @@ h3 {
   justify-content: space-between;
   transform: translateY(-50%);
   background: #f7f3eb;
-  /* padding: 30px; */
+  padding: 30px;
   max-width: 900px;
-  /* margin: 40px auto; */
+  margin: 30px auto;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
 }
