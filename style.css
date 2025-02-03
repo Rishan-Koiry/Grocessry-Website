@@ -207,11 +207,10 @@ h3 {
   margin-bottom: 20px;
 }
 .promo-card button {
-  background: white;
+  background-color: #b1f5ac;
   color: black;
   font-size: 14px;
   font-weight: bold;
-  border: none;
   padding: 10px 15px;
   border-radius: 8px;
   cursor: pointer;
@@ -243,13 +242,12 @@ h3 {
 .product-card img {
   width: 50px;
   height: 50px;
-  margin-bottom: 10px;
 }
 .product-img-center {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 14px;
+  padding: 5px;
   background-color: #ccc;
   border-radius: 10px;
   margin-right: 10px;
@@ -283,10 +281,11 @@ h3 {
 .buy {
   border: 2px lightgreen;
   cursor: pointer;
+  border: 2px solid yellow;
 }
 .buy:hover {
-  transition: 0.5s linear;
-  background-color: #dceddc;
+  transition: 0.2s linear;
+  background-color: #16ef21;
 }
 .heading-offers {
   color: green;
